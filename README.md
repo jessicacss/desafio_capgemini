@@ -28,4 +28,5 @@ Tabela de conteúdos
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Java](https://www.java.com/pt-BR/)
-- [Eclipse] (https://www.eclipse.org/)
+- [Eclipse](https://www.eclipse.org/)
+
