@@ -1,0 +1,6 @@
+import junit.framework.TestCase;
+
+public class TesteQuestao01 extends TestCase {
+
+	int entrada = 10;
+}
