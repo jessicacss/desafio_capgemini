@@ -1,0 +1,30 @@
+import java.util.*;
+/* Escreva um algoritmo que mostre na tela uma escada de tamanmho n
+ *  utilizando caractere *. a base e a altura da escada devem ser 
+ *  iguais ao valor de n. a ultima linha não deve conter nenhum espaço.
+ *  
+ *  Programa recebe um número inteiro digitado pelo usuario, ao receber
+ *  o valor o programa entra no For verifica o valor, faz a repetição
+ *  e a quebra de linhas para formação de uma escada.
+ *  */
+public class Questao01 {
+  public static void main(String[] args) {
+
+	  	Scanner entrada = new Scanner (System.in);
+		ArrayList <String> altura = new ArrayList<>();
+		
+		System.out.println( "Digite um numero: " );
+		int numAltura =  entrada.nextInt();
+		
+		for (int n=0; n<numAltura; n++) {
+			altura.add(" ".repeat(numAltura-n) + "*".repeat(n+1) + "\n");
+			
+			
+		}
+		for (String a: altura) {
+			System.out.print(a);
+		}
+	
+  }
+  
+}
